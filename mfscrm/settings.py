@@ -116,7 +116,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'crm/static/'
 
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'
@@ -128,5 +128,5 @@ EMAIL_HOST_PASSWORD = 'hofydzqivvsesqkc'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'Food Service Team <noreply@unofoodservices.com>'
-
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATIC_ROOT = Path(BASE_DIR, 'static')
