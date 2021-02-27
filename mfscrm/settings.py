@@ -128,3 +128,5 @@ EMAIL_HOST_PASSWORD = 'hofydzqivvsesqkc'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'Food Service Team <noreply@unofoodservices.com>'
+
+STATIC_ROOT = Path(BASE_DIR, 'static')
